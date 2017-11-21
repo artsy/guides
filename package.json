@@ -20,7 +20,7 @@
     "*.md": ["yarn prettier --write", "git add"]
   },
   "prettier": {
-    "printWidth": 120,
+    "printWidth": 116,
     "semi": false,
     "singleQuote": false,
     "trailingComma": "es5",
