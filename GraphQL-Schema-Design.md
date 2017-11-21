@@ -6,9 +6,8 @@
 
 # How to model our graph
 
-* As with most GraphQL advice, our schema should strive to always be backwards compatible.
-  Thus careful consideration is needed about naming (be as unambiguous as possible) and the shape of the data returned
-  by a field.
+* As with most GraphQL advice, our schema should strive to always be backwards compatible. Thus careful consideration is
+  needed about naming (be as unambiguous as possible) and the shape of the data returned by a field.
 
 * Whenever a ‘namespace’ would be used in a field by adding a prefix or suffix (e.g. `for_sale_artwork` or
   `location_city`), this should be taken as a clue that this data needs to be nested instead. E.g.
@@ -25,7 +24,7 @@
         country
       }
     }
-   }
+  }
   ```
 
 * Design the schema around first class domain-models, not functional details.
@@ -75,7 +74,8 @@
 * These are entry points into the graph that is Artsy’s data set.
 
 * Not all types necessarily make sense as root fields.
-  - In general only domain models should be exposed as root fields. An ‘artwork’ is such a model, Artsy’s system time
+
+  * In general only domain models should be exposed as root fields. An ‘artwork’ is such a model, Artsy’s system time
     (for clock synchronization) probably is not.
 
 * For the cases where there is no root field, but you still need to be able to retrieve an arbitrary node of the graph
@@ -95,9 +95,10 @@ It is undesirable to have multiple fields that semantically refer to the same da
 * A paginated list (such as most associated types) should use ‘connections’ (see
   [the spec](https://facebook.github.io/relay/graphql/connections.htm) and
   [this blog post](https://dev-blog.apollodata.com/explaining-graphql-connections-c48b7c3d6976)).
-  - These are more forward-compatible, as they allow for adding metadata to the association itself and the ‘edge’ (the
+
+  * These are more forward-compatible, as they allow for adding metadata to the association itself and the ‘edge’ (the
     relation between the parent entity and the associated entity).
-  - Connections use
+  * Connections use
     [cursor based pagination](https://www.sitepoint.com/paginating-real-time-data-cursor-based-pagination/), which has
     benefits over ‘page’ based pagination in systems where data availability could change (e.g. removing/adding of
     artworks) and it’s an abstraction that allows the underlying system to change the way it does pagination whilst
@@ -112,8 +113,10 @@ As we expand our microservices oriented architecture and take our use of GraphQL
 model GraphQL schemas more closely to the data source (i.e. database) in an effort to colocate schema code next to the
 rest of the code related to that data and to make these schema resolvers more performant.
 
-In this new scenario, metaphysics would be an orchestration layer that [stitches together](https://www.apollographql.com/docs/graphql-tools/schema-stitching.html) these various schemas into a single coherent
-schema that clients can consume without needing to know about the existence of these various microservices.
+In this new scenario, metaphysics would be an orchestration layer that
+[stitches together](https://www.apollographql.com/docs/graphql-tools/schema-stitching.html) these various schemas into a
+single coherent schema that clients can consume without needing to know about the existence of these various
+microservices.
 
 * Services should only model the data they themselves are responsible for and leave it up to metaphysics to model that
   further. For example, consider a list of consignment submissions for a user, rather than modelling the submissions

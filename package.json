@@ -1,0 +1,29 @@
+{
+  "name": "guides",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/artsy/guides.git",
+  "author": "Orta Therox <orta@artsymail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^5.0.0",
+    "prettier": "^1.8.2"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "prettier-project": "yarn prettier --write '*.{ts,tsx,md,json}'"
+  },
+  "lint-staged": {
+    "*.json": ["yarn prettier --write", "git add"],
+    "*.@(ts|tsx)": ["yarn prettier --write", "git add"],
+    "*.md": ["yarn prettier --write", "git add"]
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "bracketSpacing": true
+  }
+}
