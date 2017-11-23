@@ -19,28 +19,28 @@ const AvatarText = styled.Text`
 
 Use CSS-like formatting for your attributes (instead of React Native's camelCase e.g. `fontFamily`)
 
-
 ## Interfaces
 
-Provide documentation for others on how to use your component. 
+These provide documentation for others on how to use your component.
 
-Use an interface for both your `Props` and `State` - ideally name them as these. If you have shared properties you can use `extends` on another interface to provide additional attributes. 
+Use an interface for both your `Props` and `State` - ideally name them as these. If you have shared properties you
+can use `extends` on another interface to provide additional attributes.
 
 ### State
 
-If you have a state
-
 ### Props
 
-The interface for your props is one of the main ways which people will interact with your components, so take extra time in ensuring it covers all the usage you expect. 
+The interface for your props is one of the main ways which people will interact with your components, so take extra
+time in ensuring it covers all the usage you expect.
 
 If a prop's object is complex use ESDoc to annotate it so other don't need to read the source when working with it.
 
 ##### Examples
 
-A prop definition for a view subclass which must contain a title, but could optionally work with either a `href` or an `onPress` function:
+A prop definition for a view subclass which must contain a title, but could optionally work with either a `href` or
+an `onPress` function:
 
-```ts
+````ts
 interface Props extends ViewProperties {
   title: string
 
@@ -56,9 +56,7 @@ A prop definition which combines a typical `View`s props and props which are gen
 
 ```ts
 interface Props extends ViewProperties, RelayProps {}
-```
-
-
+````
 
 ## The Component
 
@@ -67,7 +65,7 @@ interface Props extends ViewProperties, RelayProps {}
 Aim for stateless, aim for function based components. So if your component looks like:
 
 ```js
-export default class MyComponent extends React.Component<Props, null> {
+export class MyComponent extends React.Component<Props, null> {
   render() {
     return (
       <View>[...]</View>
@@ -83,23 +81,16 @@ export default class MyComponent extends React.Component<Props, null> {
 It can be better represented as:
 
 ```js
-const MyComponent = (props: Props) => {
-	const openLink = () => [...]
-	return <View>[...]</View>
+export const MyComponent = (props: Props) => {
+  const openLink = () => [...]
+  return <View>[...]</View>
 }
-
-export default MyComponent
 ```
 
 Or, you could move the openLink out and pass in the required params:
 
 ```js
-const openLink = (url) => [...]
+const openLink = (url: string) => [...]
 
-const MyComponent = (props: Props) => <View>[...]</View>
-
-export default MyComponent
+export const MyComponent = (props: Props) => <View>[...]</View>
 ```
-
-Always export a named version of your component, rather than an anonymous function so that others will get better tooling when working with your components.
-
