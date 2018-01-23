@@ -3,9 +3,12 @@ and giving many people the chance to express ideas and discuss changes.
 
 Example RFCs from other communities:
 
-* React - https://github.com/reactjs/rfcs/blob/master/README.md
-* Swift - https://github.com/apple/swift-evolution/blob/master/process.md#how-to-propose-a-change
-* Rust - https://github.com/rust-lang/rfcs#rust-rfcs
+* React - [Overview](https://github.com/reactjs/rfcs/blob/master/README.md) -
+  [Template](https://github.com/reactjs/rfcs/blob/master/0000-template.md)
+* Swift - [Overview](https://github.com/apple/swift-evolution/blob/master/process.md#how-to-propose-a-change) -
+  [Template](https://github.com/apple/swift-evolution/blob/master/0000-template.md)
+* Rust - [Overview](https://github.com/rust-lang/rfcs#rust-rfcs) -
+  [Template](https://github.com/rust-lang/rfcs/blob/master/0000-template.md)
 
 These are bigger community projects than Artsy's dev team, so we don't need to take as much process from them as
 possible. We want to apply process with as much bang for buck as possible for our size.
