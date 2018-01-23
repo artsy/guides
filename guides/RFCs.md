@@ -10,10 +10,10 @@ Example RFCs from other communities:
 * Rust - [Overview](https://github.com/rust-lang/rfcs#rust-rfcs) -
   [Template](https://github.com/rust-lang/rfcs/blob/master/0000-template.md)
 
-These are bigger community projects than Artsy's dev team, so we don't need to take as much process from them as
-possible. We want to apply process with as much bang for buck as possible for our size.
+These are bigger community projects than Artsy's dev team, so we don't need to cargo cult them. We want to apply
+process with as much bang for buck as possible given our size.
 
-Our process looks like:
+### TLDR: Our process looks like:
 
 * Someone opens an issue on a repo that begins with "RFC: ", and that causes a message to be posted to Slack's #dev
   room via Peril.
