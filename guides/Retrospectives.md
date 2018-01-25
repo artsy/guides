@@ -27,10 +27,10 @@ Many articles, blog posts, and books suggest having a dedicated facilitator rath
 
 
 __Format__
-There are dozens of retrospective formats in Agile [Retrospectives](https://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649) or [online](http://retrospectivewiki.org/index.php?title=Retrospective_Plans). The most commonly used one is called “Glad, Sad, Mad.” According to Retrospectivewiki.org, this format is described as follows:
+There are dozens of retrospective formats in Agile [Retrospectives](https://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649) or [online](http://retrospectivewiki.org/index.php?title=Retrospective_Plans). The most commonly used one is called “Glad, Sad, Mad.” According to [Retrospectivewiki](http://retrospectivewiki.org/index.php?title=Agile_Retrospective_Resource_Wiki), this format is described as follows:
 
 
- >Issues, changes or observations made during a sprint are listed by all participants and then categorized as either Glad, Sad or Mad. These broadly represent positive notes about the sprint/team, negative notes about the sprint/team, and “gripes” (which are often more broad than just actions of the team), respectively. Participants then vote on the issues to be discussed and the issues are then discussed from highest to lowest number of votes until all issues have been discussed or there is no time remaining.
+ > Issues, changes or observations made during a sprint are listed by all participants and then categorized as either Glad, Sad or Mad. These broadly represent positive notes about the sprint/team, negative notes about the sprint/team, and “gripes” (which are often more broad than just actions of the team), respectively. Participants then vote on the issues to be discussed and the issues are then discussed from highest to lowest number of votes until all issues have been discussed or there is no time remaining.
 
 
 1. Everyone gather in a room or zoom call (or both). _*_
@@ -43,6 +43,7 @@ There are dozens of retrospective formats in Agile [Retrospectives](https://www.
 
 
 _*_  Make sure to review the action items from the previous retrospective to determine if they were useful. Ideally this should come up as topic items but it may be helpful to specifically call them out when you first start conducting retros.
+
 _* *_ If this is in person typically everyone gets 3-5 votes (represented by stickers) to assign to topics they wish to discuss.
 
 
@@ -64,7 +65,7 @@ At Artsy it is typically the case that team members are distributed across diffe
 
 
 **Resources:**
-[10 things all agile teams need to know to run effective retrospectives](https://blog.retrium.com/10-things-all-agile-teams-need-to-know-to-run-effective-retrospectives)
-[Retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
-[The Collector Experience & GMV team’s first retro](https://github.com/artsy/collector-experience/wiki/Our-First-Retro)
+- [10 things all agile teams need to know to run effective retrospectives](https://blog.retrium.com/10-things-all-agile-teams-need-to-know-to-run-effective-retrospectives)
+- [Retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
+- [The Collector Experience & GMV team’s first retro](https://github.com/artsy/collector-experience/wiki/Our-First-Retro)
 
