@@ -23,7 +23,7 @@ A retro needs a facilitator whose role is to:
 - Take notes of action items.
 
 
-Many articles, blog posts, and books suggest having a dedicated facilitator rather than having one of the team members play this role, which would help remove bias. In a small team, that may not be an option but is something for the facilitator to keep in mind.
+Many articles, blog posts, and books suggest having a dedicated facilitator rather than having one of the team members play this role, which would help remove bias. In a small team, that may not be an option but is something for the facilitator to keep in mind. Rotating facililators is also encouraged to increase participation and distribute sense of ownership throughout the process.
 
 
 __Format__
@@ -51,15 +51,15 @@ __Action Items__
 Be sure to come up with action items that are actionable and can be performed by a team member or the whole team. An example of that might be:
 
 - **Issue or topic discussed**: Sentry React Native, which is supposed to collect crashes, was causing a crash. Entire team has felt this pain point and the team decided to search for an alternative.
-- **Action Item**: Yuki has agreed to do a spike to search for an alternative. This might be a task pulled in next sprint.
+- **Action Item**: Yuki has agreed to do a [spike](http://v4.scaledagileframework.com/spikes/) to search for an alternative. This might be a task pulled in next sprint.
 
 
 __Tooling__
-At Artsy it is typically the case that team members are distributed across different countries/time zones. In order to conduct a retrospective that accommodates everyone, it may be necessary to use web-based tools such as zoom.us and [retrium.com](https://www.retrium.com/).
+At Artsy it is typically the case that team members are distributed across different countries/time zones. In order to conduct a retrospective that accommodates everyone, it may be necessary to use web-based tools such as [zoom.us](https://zoom.us/) and [retrium.com](https://www.retrium.com/).
 
 
 ## Things to keep in mind
-- It’s really important to cultivate a safespace for retros. Retros are most successful when all team members are able to voice their thoughts, concerns, and ideas.
+- It’s really important to cultivate [psychological safety](https://ashfurrow.com/blog/building-compassionate-software/#teams-with-psychological-safety-perform-better) and a safespace for retros. Retros are most successful when all team members are able to voice their thoughts, concerns, and ideas.
 - In some cases the team may want to run a retro with a specific focus in mind. For example, the team could facilitate a retro for improving how the quality assurance process is done or managing technical debt. Another good opportunity for a retro is after the team has implemented a new stack or technology.
 - These are by no means hard rules. Rather, this is meant to serve as a guideline and give some initial structure that teams can then adjust to fit their needs.
 
@@ -68,4 +68,5 @@ At Artsy it is typically the case that team members are distributed across diffe
 - [10 things all agile teams need to know to run effective retrospectives](https://blog.retrium.com/10-things-all-agile-teams-need-to-know-to-run-effective-retrospectives)
 - [Retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
 - [The Collector Experience & GMV team’s first retro](https://github.com/artsy/collector-experience/wiki/Our-First-Retro)
+- [iOS Retrospectives](http://artsy.github.io/blog/2017/05/27/ios-retrospectives/)
 
