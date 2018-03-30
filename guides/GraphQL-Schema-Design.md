@@ -123,7 +123,7 @@ microservices.
 
 * Services should only model the data they themselves are responsible for and leave it up to metaphysics to model
   that further. For example, consider a list of consignment submissions for a user, rather than modelling the
-  submissions under an ‘authenticated user’:
+  submissions under an ‘authenticated user’ in your upstream API like this:
 
   ```graphql
   {
@@ -145,7 +145,7 @@ microservices.
   }
   ```
 
-  Metaphysics can then stitch that together with a `User` type and model the schema as per the first example.
+  then Metaphysics can then stitch that together the `submissions` query with a `User` type and model the schema as per the first example.
 
 * Schemas that are exposed to Metaphysics for stitching, should preferably name the fields and mutations they define in such a way that doesn't leak any implementation details about the underlying service, and reflects actual real-world 'business' groupings.
 
