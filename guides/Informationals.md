@@ -31,7 +31,20 @@ online, Artsy empowers a global audience to learn about, discover, and collect a
 Launched in 2012, Artsy is headquartered in New York City with offices
 in London, Berlin, Los Angeles, and Hong Kong.
 
+#### Wrapping Up
+
+
 Try to repeatedly wrap up by asking if someone has more questions, usually mine end up a long string of __"OK, so do you have anymore questions?"__. This ensures someone has had a lot of opportunities to dig in and get everything they want to know.
+
+Once you're certain that you've answered all their questions you should let them know the next steps:
+
+- If you think they'll get through interviewing, and that Artsy is likely to make an offer. Let them know the next step is that you'll send them an email today/tomorrow after you've moved them to the next stage in Greenhouse to start finding the an interview date.
+
+- If you're not sure, but leaning towards yes, you could hedge your bet and ask the candidate to have a informational chat with someone else. The earlier we make the call on whether someone should be interviewing the better for everyone.
+
+- Otherwise thank them for their time, and let them know that there aren't any openings for their fit right now and that they can/should re-apply if their context changes. Honestly, this is really hard to do, you've just answered questions for ~30-45m on why Artsy is an interesting place, then you've turned around and said we don't have a fit for you yet.
+
+  Putting it into context, interviewing at Artsy is a 3 hour session, so that's a half/full day of work that someone would skip. They'd spend a lot of time thinking and preparing, and if you're only half sure they'll make it then you're potentially wasting a lot of their time.
 
 
 ---
